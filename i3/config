@@ -23,7 +23,7 @@ border_radius 10
 # autostart
 exec --no-startup-id xrandr --dpi 135
 exec --no-startup-id systemctl start dhcpcd@wlp3s0
-exec --no-startup-id hsetroot -full ~/wallcity.jpg
+exec --no-startup-id hsetroot -solid "#081F2D"
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b --respect-prop-shadow
 exec --no-startup-id polybar mybar -r
